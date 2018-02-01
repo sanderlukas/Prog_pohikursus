@@ -10,7 +10,19 @@ package algus;
  * @author if17
  */
 public class Algus {
-
+    
+    /**
+     * Arvamus ilma kohta
+     */
+    
+    public static void ilmaKommentaar() {
+        int temperatuur = -2;
+        if (temperatuur > 0) {
+            System.out.println("Sulab");
+        } else {
+            System.out.println("Jäätub");
+        }
+    }
     /**
      * Programmi alguskoht
      * @param args the command line arguments
@@ -18,6 +30,10 @@ public class Algus {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello, World");
+        ilmaKommentaar();
+        
+       
+        
     }
     
 }
