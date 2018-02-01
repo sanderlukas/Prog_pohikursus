@@ -12,6 +12,22 @@ package algus;
 public class Algus {
     
     /**
+     * Alamprogramm toa soojuse hindamiseks vastavalt temperatuurile.
+     * Vähemasti kolm taset
+     */
+    
+    public static void toaTemp(int temperatuur){
+        if(temperatuur >= 30) {
+            System.out.println("Ei kannata enam");
+        } else { 
+            if(temperatuur < 15) {
+                System.out.println("Pane vähe juurde")
+            }
+        }
+        
+    }
+    
+    /**
      * Arvamus ilma kohta
      */
     
@@ -30,6 +46,8 @@ public class Algus {
         // TODO code application logic here
         System.out.println("Hello, World");
         ilmaKommentaar(3);
+        ilmaKommentaar(-2);
+        toaTemp(33);
         
        
         
