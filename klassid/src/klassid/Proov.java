@@ -11,7 +11,5 @@ public class Proov {
         if (p1.kasPuutub(p2)) {
             System.out.println("1 ja 2 puutuvad");
         }
-        
     }
-    
 }
